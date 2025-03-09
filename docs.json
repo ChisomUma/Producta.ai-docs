@@ -16,7 +16,8 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction"
+              "introduction",
+              "onboarding"
             ]
           },
           {
@@ -43,7 +44,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "hello@producta.ai"
+        "href": "https://producta.ai/support"
       }
     ]
   },
