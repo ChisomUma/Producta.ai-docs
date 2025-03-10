@@ -1,6 +1,51 @@
 ---
 title: "Security and Privacy"
 icon: "lock"
+description: "How we handle data and permissions at Producta"
 ---
 
+Before getting started, it's necessary to take the following notes:
 
+<Note>
+  * Producta does not use your source code to train models.
+
+  * Your source code and the code Producta generates for you will never be accessible to other clients.
+
+  * Your source code and the code Producta generates for you will never be accessible to other clients.
+
+  * Producta will not modify any Github repository, issue or pull request it has not created.
+</Note>
+
+## How do we handle permissions and data?
+
+### Permissions
+
+Producta needs you to install its GitHub and Linear apps to deliver full functionality. Here's what we need access to and why:
+
+* Installing the **GitHub** app provides Producta with permission to do the following:
+
+  * **Read the content of the selected repositories:**
+
+    * Our AI needs access to your files to solve your technical tasks, as many of them will require updating, adding, or removing code from the files.
+
+  * **Read and open pull requests on the selected repositories:**
+
+    * We will open pull requests to present the solutions to the given tasks.
+
+    * We also need read access to read code reviews and commentaries in the pull requests we open, react to them, and update the code as needed.
+
+  * **Read, create, and remove webhooks:**
+
+    * After installing the app, we will create three webhooks to be notified of these events:
+
+      * Updates on pull request comments and reviews to react to the ones left in the pull requests we open
+
+      * Updates on the state of pull requests to track when the ones we open get closed or merged
+
+      * Updates on the branch of our pull requests point to make sure we are constantly working on the latest version of the files.
+
+* Installing the **Linear** app provides Producta with complete permissions to the Linear API. At this time, it is not possible to create an app with a smaller set of permissions. We will reduce our permissions to the minimum as soon as possible. We will use the API access solely to perform the following actions:
+
+  * **Create a webhook:** This webhook receives notifications when a task is updated. We need these to know when to start working on a task and during the refinement flow, which requires the user to update the task description.
+
+  * **Comment on tasks:** There are only two types of comments. Those related to the task refinement flow and those used to notify users of new pull requests.
