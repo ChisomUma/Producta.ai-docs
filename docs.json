@@ -29,6 +29,12 @@
               "producta/goodtask",
               "producta/security"
             ]
+          },
+          {
+            "group": "Legal Center",
+            "pages": [
+              "legalcenter/termsofservice"
+            ]
           }
         ]
       }
