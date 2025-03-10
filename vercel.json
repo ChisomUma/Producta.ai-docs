@@ -1,8 +1,0 @@
-{
-    "rewrites": [
-      {
-        "source": "/Producta Documentation",
-        "destination": "https://chisomproducta.mintlify.app"
-      }
-    ]
-  }
