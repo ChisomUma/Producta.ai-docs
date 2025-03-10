@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/Producta Documentation",
-        "destination": "https://chisom.mintlify.dev/docs"
+        "destination": "https://chisomproducta.mintlify.app"
       }
     ]
   }
