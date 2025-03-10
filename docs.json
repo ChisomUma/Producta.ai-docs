@@ -7,13 +7,19 @@
     "light": "#00A3E1",
     "dark": "#00A3E1"
   },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+    },
   "favicon": "/favicon.svg",
+
+
   
   "navigation": {
     "tabs": [
       {
         "tab": "Home",
-        "pages": ["home/home"]
+        "pages": ["/home"]
       },
       {
         "tab": "Documentation",
