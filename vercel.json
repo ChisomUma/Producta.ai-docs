@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/Producta Documentation",
+        "destination": "https://chisom.mintlify.dev/docs"
+      }
+    ]
+  }
