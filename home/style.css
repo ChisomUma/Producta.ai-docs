@@ -1,0 +1,59 @@
+.intro-content {
+    text-align: center;
+    margin: 2em;
+    color: white;
+}
+
+.intro-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+}
+
+.intro-content h1 span {
+    color: #12B6DC; /* Blue accent color */
+}
+
+.intro-content p {
+    margin-top: 1em;
+    font-size: 20px;
+    color: #B0B0B0; /* Light gray text */
+    font-weight: 400;
+}
+
+.intro-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1.5em;
+}
+
+.intro-buttons .btn-primary {
+    background: white;
+    color: black;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.intro-buttons .btn-secondary {
+    background: #FF5A5F;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.intro-cards {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2em 1em;
+}
+
+body {
+    background: black;
+}

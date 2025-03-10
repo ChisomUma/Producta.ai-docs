@@ -12,6 +12,10 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Home",
+        "pages": ["home/home"]
+      },
+      {
         "tab": "Documentation",
         "groups": [
           {
@@ -34,6 +38,12 @@
             "group": "Legal Center",
             "pages": [
               "legalcenter/termsofservice"
+            ]
+          },
+          {
+            "group": "FAQs",
+            "pages": [
+              "faqs/faq"
             ]
           }
         ]
